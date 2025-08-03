@@ -1,0 +1,138 @@
+﻿@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - MyApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0e7ef 0%, #cfd9df 100%);
+            min-height: 100vh;
+        }
+
+        .login-container {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 6px 32px 4px #1c92d228;
+            padding: 36px 26px 26px 26px;
+            margin-top: 70px;
+        }
+
+        .main-btn {
+            background-color: #1976d2 !important;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+            .main-btn:hover {
+                background-color: #1565c0 !important;
+                color: #fff;
+            }
+
+        .form-label {
+            font-weight: 500;
+        }
+
+        .login-icon {
+            font-size: 1.2rem;
+            color: #1976d2;
+            margin-right: 8px;
+        }
+
+        .register-link {
+            color: #1976d2;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+            .register-link:hover {
+                text-decoration: underline;
+                color: #0d47a1;
+            }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="login-container w-100" style="max-width: 400px;">
+            <h2 class="mb-4 text-center" style="color: #1976d2; font-weight: 700;">Đăng nhập</h2>
+            <!-- Thêm dòng này vào trong login-container để hiển thị thông báo lỗi -->
+<div id="loginMsg" class="text-danger mb-2"></div>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-person login-icon"></i></span>
+                        <input type="username" class="form-control border-start-0" id="email" name="Email" placeholder="Nhập username" required />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-lock login-icon"></i></span>
+                        <input type="password" class="form-control border-start-0" id="password" name="Password" placeholder="Nhập mật khẩu" required />
+                    </div>
+                </div>
+                <button type="submit" class="btn main-btn w-100 mt-2 mb-3" style="border-radius: 10px;">Đăng nhập</button>
+            </form>
+            <div class="text-center">
+                <span>Bạn chưa có tài khoản?</span>
+                <a href="/Home/Register" class="register-link">Đăng ký ngay</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+
+            let loginData = {
+                UserName: email,
+                Password: password
+            };
+
+            try {
+                let res = await fetch('/api/login/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(loginData)
+                });
+                let data = await res.json();
+
+                if (res.ok && data.success) {
+                    // ✅ LÁY VÀ LƯU JWT TOKEN
+                    const token = data.token;
+                    if (token) {
+                        localStorage.setItem('token', token);
+                        console.log('Token saved:', token);
+                    }
+
+                    // ✅ LÁY USERNAME TỪ TOKEN (optional)
+                    try {
+                        const payload = JSON.parse(atob(token.split('.')[1]));
+                        const userName = payload.userName;
+                        localStorage.setItem('userName', userName);
+                        console.log('Username:', userName);
+                    } catch (e) {
+                        console.log('Cannot decode token');
+                    }
+
+                    // Redirect đến Message
+                    window.location.href = '/Home/Message';
+                } else {
+                    document.getElementById('loginMsg').textContent = data.message || 'Đăng nhập thất bại!';
+                }
+            } catch (err) {
+                document.getElementById('loginMsg').textContent = 'Không kết nối được server!';
+                console.error(err);
+            }
+        });
+    </script>
+</body>
+</html>

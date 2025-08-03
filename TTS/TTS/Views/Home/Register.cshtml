@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Đăng ký";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - MyApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0e7ef 0%, #cfd9df 100%);
+            min-height: 100vh;
+        }
+
+        .register-container {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 6px 32px 4px #1c92d228;
+            padding: 36px 26px 26px 26px;
+            margin-top: 70px;
+        }
+
+        .main-btn {
+            background-color: #1976d2 !important;
+            border: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+            .main-btn:hover {
+                background-color: #1565c0 !important;
+                color: #fff;
+            }
+
+        .form-label {
+            font-weight: 500;
+        }
+
+        .register-icon {
+            font-size: 1.2rem;
+            color: #1976d2;
+            margin-right: 8px;
+        }
+
+        .login-link {
+            color: #1976d2;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+            .login-link:hover {
+                text-decoration: underline;
+                color: #0d47a1;
+            }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="register-container w-100" style="max-width: 400px;">
+            <h2 class="mb-4 text-center" style="color: #1976d2; font-weight: 700;">Đăng ký</h2>
+            <form method="post" action="/Account/Register">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-envelope register-icon"></i></span>
+                        <input type="email" class="form-control border-start-0" id="email" name="Email" placeholder="Nhập email" required />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Tên người dùng</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-person register-icon"></i></span>
+                        <input type="text" class="form-control border-start-0" id="username" name="UserName" placeholder="Nhập tên người dùng" required />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-lock register-icon"></i></span>
+                        <input type="password" class="form-control border-start-0" id="password" name="Password" placeholder="Nhập mật khẩu" required />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Nhập lại mật khẩu</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-lock-fill register-icon"></i></span>
+                        <input type="password" class="form-control border-start-0" id="confirmPassword" name="ConfirmPassword" placeholder="Nhập lại mật khẩu" required />
+                    </div>
+                </div>
+                <button type="submit" class="btn main-btn w-100 mt-2 mb-3" style="border-radius: 10px;">Đăng ký</button>
+            </form>
+            <div class="text-center">
+                <span>Đã có tài khoản?</span>
+                <a href="/Account/Login" class="login-link">Đăng nhập</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

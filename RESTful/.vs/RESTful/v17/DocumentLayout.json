@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GithubTSS\\RESTful\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\automapper\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\automapper\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\dto\\product\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\dto\\product\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\dto\\product\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\dto\\product\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\dto\\product\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\dto\\product\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|d:\\githubtss\\restful\\restful\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F138C372-5E86-4591-AA57-10E25FE15E85}|RESTful\\RESTful.csproj|solutionrelative:restful\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\AutoMapper\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "RESTful\\AutoMapper\\ProductProfile.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\AutoMapper\\ProductProfile.cs",
+              "RelativeToolTip": "RESTful\\AutoMapper\\ProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T03:15:19.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Dto\\Product\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "RESTful\\Dto\\Product\\ProductResponse.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Dto\\Product\\ProductResponse.cs",
+              "RelativeToolTip": "RESTful\\Dto\\Product\\ProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T02:31:16.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "RESTful\\Service\\ProductService.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Service\\ProductService.cs",
+              "RelativeToolTip": "RESTful\\Service\\ProductService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T01:32:47.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Service\\IProductService.cs",
+              "RelativeDocumentMoniker": "RESTful\\Service\\IProductService.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Service\\IProductService.cs",
+              "RelativeToolTip": "RESTful\\Service\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T01:32:12.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateProduct.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Dto\\Product\\UpdateProduct.cs",
+              "RelativeDocumentMoniker": "RESTful\\Dto\\Product\\UpdateProduct.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Dto\\Product\\UpdateProduct.cs",
+              "RelativeToolTip": "RESTful\\Dto\\Product\\UpdateProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T01:24:59.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateProduct.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Dto\\Product\\CreateProduct.cs",
+              "RelativeDocumentMoniker": "RESTful\\Dto\\Product\\CreateProduct.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Dto\\Product\\CreateProduct.cs",
+              "RelativeToolTip": "RESTful\\Dto\\Product\\CreateProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T01:10:49.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Program.cs",
+              "RelativeDocumentMoniker": "RESTful\\Program.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Program.cs",
+              "RelativeToolTip": "RESTful\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:53:37.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "RESTful\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "RESTful\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:45:23.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\RESTful\\RESTful\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "RESTful\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\GithubTSS\\RESTful\\RESTful\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "RESTful\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:44:28.866Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

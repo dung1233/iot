@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\never\\source\\repos\\SignalR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|c:\\users\\never\\source\\repos\\signalr\\signalr\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|solutionrelative:signalr\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|c:\\users\\never\\source\\repos\\signalr\\signalr\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|solutionrelative:signalr\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|c:\\users\\never\\source\\repos\\signalr\\signalr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|solutionrelative:signalr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|c:\\users\\never\\source\\repos\\signalr\\signalr\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A44F367B-5104-42A5-9999-A98D259D2D0E}|SignalR\\SignalR.csproj|solutionrelative:signalr\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SignalR\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SignalR\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:14:17.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "SignalR\\wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "SignalR\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-08-01T04:14:12.619Z",
+              "EditorCaption": " -  [English (United States)] - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageHub.cs",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\Hubs\\MessageHub.cs",
+              "RelativeDocumentMoniker": "SignalR\\Hubs\\MessageHub.cs",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\Hubs\\MessageHub.cs",
+              "RelativeToolTip": "SignalR\\Hubs\\MessageHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:14:05.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "SignalR\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\SignalR\\SignalR\\wwwroot\\index.html",
+              "RelativeToolTip": "SignalR\\wwwroot\\index.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-01T04:14:04.317Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

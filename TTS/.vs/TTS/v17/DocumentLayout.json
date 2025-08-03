@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GithubTSS\\TTS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\views\\home\\message.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\views\\home\\message.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\chathub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\chathub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|d:\\githubtss\\tts\\tts\\service\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7B4EA2-B11E-444A-9FFC-7B54D3848936}|TTS\\TTS.csproj|solutionrelative:tts\\service\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\appsettings.json",
+              "RelativeDocumentMoniker": "TTS\\appsettings.json",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\appsettings.json",
+              "RelativeToolTip": "TTS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-03T13:08:10.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TTS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TTS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-03T12:35:40.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "TTS\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "TTS\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswIYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-03T12:03:18.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Program.cs",
+              "RelativeDocumentMoniker": "TTS\\Program.cs",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Program.cs",
+              "RelativeToolTip": "TTS\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T12:02:38.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Service\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "TTS\\Service\\Users\\UserService.cs",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Service\\Users\\UserService.cs",
+              "RelativeToolTip": "TTS\\Service\\Users\\UserService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T12:01:41.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TTS\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TTS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T12:00:58.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\ChatHub\\ChatHub.cs",
+              "RelativeDocumentMoniker": "TTS\\ChatHub\\ChatHub.cs",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\ChatHub\\ChatHub.cs",
+              "RelativeToolTip": "TTS\\ChatHub\\ChatHub.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T11:59:46.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Message.cshtml",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Views\\Home\\Message.cshtml",
+              "RelativeDocumentMoniker": "TTS\\Views\\Home\\Message.cshtml",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Views\\Home\\Message.cshtml",
+              "RelativeToolTip": "TTS\\Views\\Home\\Message.cshtml",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAswKoBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-03T11:40:50.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\GithubTSS\\TTS\\TTS\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TTS\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\GithubTSS\\TTS\\TTS\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TTS\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T11:28:41.522Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

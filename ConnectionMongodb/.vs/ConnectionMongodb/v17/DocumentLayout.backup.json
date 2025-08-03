@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|c:\\users\\never\\source\\repos\\connectionmongodb\\connectionmongodb\\models\\producs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|solutionrelative:connectionmongodb\\models\\producs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|c:\\users\\never\\source\\repos\\connectionmongodb\\connectionmongodb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|solutionrelative:connectionmongodb\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|c:\\users\\never\\source\\repos\\connectionmongodb\\connectionmongodb\\repository\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|solutionrelative:connectionmongodb\\repository\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|c:\\users\\never\\source\\repos\\connectionmongodb\\connectionmongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|solutionrelative:connectionmongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|c:\\users\\never\\source\\repos\\connectionmongodb\\connectionmongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E650F61D-D32D-424E-B7C5-2FEF9FCC3AA0}|ConnectionMongodb\\ConnectionMongodb.csproj|solutionrelative:connectionmongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ConnectionMongodb\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ConnectionMongodb\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:36:29.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\appsettings.json",
+              "RelativeDocumentMoniker": "ConnectionMongodb\\appsettings.json",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\appsettings.json",
+              "RelativeToolTip": "ConnectionMongodb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T02:35:22.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repositories.cs",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Repository\\Repositories.cs",
+              "RelativeDocumentMoniker": "ConnectionMongodb\\Repository\\Repositories.cs",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Repository\\Repositories.cs",
+              "RelativeToolTip": "ConnectionMongodb\\Repository\\Repositories.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:27:08.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Producs.cs",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Models\\Producs.cs",
+              "RelativeDocumentMoniker": "ConnectionMongodb\\Models\\Producs.cs",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Models\\Producs.cs",
+              "RelativeToolTip": "ConnectionMongodb\\Models\\Producs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:20:11.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Program.cs",
+              "RelativeDocumentMoniker": "ConnectionMongodb\\Program.cs",
+              "ToolTip": "C:\\Users\\never\\source\\repos\\ConnectionMongodb\\ConnectionMongodb\\Program.cs",
+              "RelativeToolTip": "ConnectionMongodb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T02:12:45.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

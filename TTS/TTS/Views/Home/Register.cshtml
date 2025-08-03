@@ -61,42 +61,94 @@
     <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
         <div class="register-container w-100" style="max-width: 400px;">
             <h2 class="mb-4 text-center" style="color: #1976d2; font-weight: 700;">Đăng ký</h2>
-            <form method="post" action="/Account/Register">
+            <div id="alert"></div>
+            <form id="registerForm" autocomplete="off">
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
+                    <label class="form-label">Tên người dùng</label>
                     <div class="input-group">
-                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-envelope register-icon"></i></span>
-                        <input type="email" class="form-control border-start-0" id="email" name="Email" placeholder="Nhập email" required />
+                        <span class="input-group-text"><i class="bi bi-person register-icon"></i></span>
+                        <input type="text" class="form-control" id="username" required />
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="username" class="form-label">Tên người dùng</label>
+                    <label class="form-label">Mật khẩu</label>
                     <div class="input-group">
-                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-person register-icon"></i></span>
-                        <input type="text" class="form-control border-start-0" id="username" name="UserName" placeholder="Nhập tên người dùng" required />
+                        <span class="input-group-text"><i class="bi bi-lock register-icon"></i></span>
+                        <input type="password" class="form-control" id="password" required />
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Mật khẩu</label>
+                    <label class="form-label">Nhập lại mật khẩu</label>
                     <div class="input-group">
-                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-lock register-icon"></i></span>
-                        <input type="password" class="form-control border-start-0" id="password" name="Password" placeholder="Nhập mật khẩu" required />
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <label for="confirmPassword" class="form-label">Nhập lại mật khẩu</label>
-                    <div class="input-group">
-                        <span class="input-group-text bg-white border-end-0"><i class="bi bi-lock-fill register-icon"></i></span>
-                        <input type="password" class="form-control border-start-0" id="confirmPassword" name="ConfirmPassword" placeholder="Nhập lại mật khẩu" required />
+                        <span class="input-group-text"><i class="bi bi-lock-fill register-icon"></i></span>
+                        <input type="password" class="form-control" id="confirmPassword" required />
                     </div>
                 </div>
                 <button type="submit" class="btn main-btn w-100 mt-2 mb-3" style="border-radius: 10px;">Đăng ký</button>
             </form>
             <div class="text-center">
                 <span>Đã có tài khoản?</span>
-                <a href="/Account/Login" class="login-link">Đăng nhập</a>
+                <a href="/Home/Login" class="login-link">Đăng nhập</a>
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+        
+            const userName = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+           
+            if (!userName || !password) {
+                showAlert("Vui lòng điền đầy đủ thông tin.", "danger");
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                showAlert("Mật khẩu không khớp.", "danger");
+                return;
+            }
+
+            if (password.length < 6) {
+                showAlert("Mật khẩu phải có ít nhất 6 ký tự.", "danger");
+                return;
+            }
+
+            try {
+                const res = await fetch('/api/Login/create', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ userName, password })
+                });
+
+                if (res.ok) {
+                    showAlert("Đăng ký thành công!", "success");
+                   
+                    setTimeout(() => {
+                        window.location.href = '/Home/Login';
+                    }, 2000);
+                } else {
+                    const msg = await res.text();
+                    showAlert("Lỗi: " + msg, "danger");
+                }
+            } catch (err) {
+                console.error('Error:', err);
+                showAlert("Lỗi kết nối server.", "danger");
+            }
+        });
+
+        function showAlert(msg, type) {
+            const alertDiv = document.getElementById('alert');
+            alertDiv.innerHTML = `<div class="alert alert-${type}" role="alert">${msg}</div>`;
+
+           
+            setTimeout(() => {
+                alertDiv.innerHTML = '';
+            }, 5000);
+        }
+    </script>
 </body>
 </html>

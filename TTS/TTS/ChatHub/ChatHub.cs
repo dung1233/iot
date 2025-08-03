@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.SignalR;
 using TTS.Dto;
 using TTS.Service;
 
-// Thêm dòng này để yêu cầu xác thực JWT cho SignalR
+
 public class ChatHub : Hub
 {
     private readonly MessageService _messageService;

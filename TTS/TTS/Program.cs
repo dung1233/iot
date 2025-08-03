@@ -6,9 +6,9 @@ using System.Text;
 using System.Text.Json; // Thêm để serialize
 using TTS.AutoMapper;
 using TTS.Models;
-using TTS.Repositories.Products;
+
 using TTS.Repositories.Users;
-using TTS.Service.Products;
+
 using TTS.Service.Users;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,12 +18,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddScoped<IServicesProduct, ServicesProduct>();
+
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<UserRepository>();
-builder.Services.AddSingleton<ProductRepository>();
+
 builder.Services.AddAutoMapper(typeof(Program));
-builder.Services.AddAutoMapper(typeof(ProductProfile));
+
 
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
